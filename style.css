@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.main img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.about-text {
+    padding: 40px;
+    width: 50%;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-text h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-text button:hover {
+    background-color: #0056b3;
+}
+
+.about-text button.mywork {
+    background-color: #28a745;
+    margin-left: 10px;
+}
+
+.about-text button.mywork:hover {
+    background-color: #218838;
+}
